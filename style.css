@@ -48,6 +48,7 @@ body{
 
 .dropdown{
     margin-top: 1rem;
+    display: inline-block;
 }
 
 .add-button{
@@ -57,10 +58,34 @@ body{
 
 }
 
+.delete-button{
+    color: white;
+    background: rgb(230, 43, 43);
+    padding: 5px;
+
+}
+.add-class-text{
+    color: white;
+    background: rgb(105, 105, 105);
+    padding: 5px;
+}
+.hours-select{
+    color: white;
+    background: rgb(19, 19, 19);
+    padding: 5px;
+}
+.new-class-form{
+    flex-direction: column;
+    display: inline-flex;
+}
+
+
+textarea{
+    resize: none;
+    border: 1px solid gray;
+}
 ul{
-    display: table;
     list-style: none;
-    border-collapse: collapse;
     border: 1px solid black;
 
 }
