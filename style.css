@@ -2,11 +2,75 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Roboto', ;
+    font-family: 'Roboto';
 
 
 }
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+tr, td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg");
+}
+
+.container{
+    padding: 2rem;
+    width: 80%;
+    background: rgba(255, 255, 255);
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.288);
+}
+
+.page-header{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    position: absolute;
+    display: block;
+}
+
+.dropdown{
+    margin-top: 1rem;
+}
+
+.add-button{
+    color: white;
+    background: rgb(32, 196, 46);
+    padding: 5px;
+
+}
+
+ul{
+    display: table;
+    list-style: none;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+li{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background:rgba(146, 146, 146, 0.486);
+}
+
+li:hover{
+    cursor: pointer;
 }
