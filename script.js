@@ -47,12 +47,26 @@ function addClass(name, hours){
 
 
 function removeClass(deleteList, nodeToRemove, hours){
-    deleteList.removeChild(nodeToRemove);
     hours.forEach(element => {
         let col = parseInt(element/10);
         let row = element%10 +1;
         tableBody.children[row].children[col].innerHTML = "";
     });
+
+
+    let appendList = document.getElementById("append-list");
+    let appendNode = document.createElement("li");
+    
+    appendList.appendChild(appendNode);
+    appendNode.innerHTML = nodeToRemove.innerHTML;
+
+    appendNode.onclick =  function(){
+        addClass(nodeToRemove.innerHTML, hours);
+        appendList.removeChild(appendNode);
+    };
+    
+    deleteList.removeChild(nodeToRemove);
+
 };
 
 
