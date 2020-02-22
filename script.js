@@ -105,7 +105,7 @@ function seeder(){
     removeClass(addClass("BBM104(01) <br> Comp. Lab.", [52,53]),[52,53]);
     removeClass(addClass("BBM104(02) <br> Comp. Lab.", [54,55]),[54,55]);
     removeClass(addClass("BBM104(03) <br> Comp. Lab.", [56,57]),[56,57]);
-    removeClass(addClass("ST292(05-06) <br> D3, D4", [50,51,52]),[50,51,52]);
+    removeClass(addClass("İST292(05-06) <br> D3, D4", [50,51,52]),[50,51,52]);
     removeClass(addClass("BBM405 <br> (D8)", [50,51,52]),[50,51,52]);
     removeClass(addClass("BBM456 <br> (D9)", [50,51,52]),[50,51,52]);
     removeClass(addClass("BBM469 <br> (D8) ", [55,56]),[55,56]);
