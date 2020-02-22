@@ -4,10 +4,13 @@ let tableBody = table.children[0];
 
 
 form.onsubmit = function(){
+    console.log(form);
     event.preventDefault();
     let hours = new Array();
-    for(let i = 0; i<51; i++){
-        if(form[i].checked === true && form[i].value >10){
+    for(let i = 0; i<45; i++)
+    {
+        if(form[i].checked === true)
+        {
          hours.push(parseInt(form[i].value));
         }
     }
@@ -20,9 +23,15 @@ form.onsubmit = function(){
 
 
 function addClass(name, hours){
-    console.log(name);
-    console.log(hours);
+    hours.forEach(element => {
+        let col = parseInt(element/10);
+        let row = element%10 +1
+        tableBody.children[row].children[col].innerHTML = name;
+    });
 };
+
+
+
 function removeClass(nodeToRemove, dayId, hours){};
 
 
