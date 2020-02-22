@@ -8,7 +8,8 @@
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    width: 100%;
 }
 tr, td, th{
     border: 1px solid black;
@@ -20,6 +21,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-image: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg");
+}
+
+label{
+    margin-right: 1rem;
 }
 
 .container{
@@ -55,6 +60,8 @@ body{
 .dropdown-side-menu{
     display: none;
     margin-left: 1rem;
+    background: white;
+    padding: 0.5rem;
 }
 
 .dropdown-side:hover .dropdown-side-menu{
@@ -90,6 +97,8 @@ body{
 .new-class-form{
     flex-direction: column;
     display: inline-flex;
+    border-left: 1px solid gray;
+    padding: 0.6rem;
 }
 
 
@@ -111,4 +120,19 @@ li{
 
 li:hover{
     cursor: pointer;
+}
+
+button{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    color: white;
+    background-color: rgb(34, 153, 168);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 77, 85);
+   
 }
