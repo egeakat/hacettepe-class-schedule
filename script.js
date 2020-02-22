@@ -40,6 +40,11 @@ function addClass(name, hours){
     hours.forEach(element => {
         let col = parseInt(element/10);
         let row = element%10 +1;
+
+        if(tableBody.children[row].children[col].innerHTML != "")
+        {
+            alert("Classes are overlapping. Erasing the previous added class in clashing hours " + tableBody.children[row].children[col].innerHTML);
+        }
         tableBody.children[row].children[col].innerHTML = name;
     });
     return(deleteNode);
