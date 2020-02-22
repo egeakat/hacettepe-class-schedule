@@ -137,3 +137,21 @@ button:hover{
     background-color: rgb(20, 77, 85);
    
 }
+
+@media screen and (max-width: 900px){
+    .container{
+        width: 100%;
+    }
+    table{
+        font-size: 0.5rem;
+
+    }
+    .new-class-form{
+        margin-top: 1rem;
+        border-left: none;
+        border-top: 1px solid gray;
+    }
+    .submit-button{
+        width: 100%;
+    }
+}

@@ -110,6 +110,7 @@ function seeder(){
     removeClass(addClass("BBM456 <br> (D9)", [50,51,52]),[50,51,52]);
     removeClass(addClass("BBM469 <br> (D8) ", [55,56]),[55,56]);
     removeClass(addClass("BBM418 <br> (D9) ", [55,56]),[55,56]);
+    removeClass(addClass("MÜH104 <br> (BLACKBOARD) ", [47]),[47]);
 
 
 };
