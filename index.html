@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+    
     <title>Hacettepe Class Schedule</title>
 </head>
 <body>
-
+    
     <h1 class="page-header">Bilsis couldn't do it for us so here we are</h1>
     
-
+    
     <div class="container">
-
+        
         <table>
             <tr>
                 <th></th>
@@ -33,8 +33,8 @@
                 <td></td>
                 <td></td>
                 <td></td>
-
-
+                
+                
             </tr>
             <tr>
                 <td>10.00-10.50</td>
@@ -59,7 +59,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-
+                
             </tr>
             <tr>
                 <td>13.00-13.50</td>
@@ -101,9 +101,9 @@
                 <td></td>
                 <td></td>
             </tr>
-          
+            
         </table>
-
+        
         <div class="dropdown">
             <span class="add-button">Add a class <b>+</b></span>
             <div class="dropdown-menu">
@@ -114,95 +114,116 @@
                     <li>Class 1</li>
                     <li>Class 1</li>
                 </ul>
-
+                
             </div>
         </div>
-
+        
         <div class="dropdown">
-                <span class="delete-button">Delete a class <b>-</b></span>
-                <div class="dropdown-menu">
-                    <ul>
-                        <li>Class 1</li>
-                        <li>Class 1</li>
-                        <li>Class 1</li>
-                        <li>Class 1</li>
-                        <li>Class 1</li>
-                    </ul>
-    
-                </div>
-            </div>
-
-            <form action="ege.html" class="new-class-form">
-                <span class="add-class-text">Add a non-existing Class:</span>
-                <textarea name="class-name" id="" cols="10" rows="1"></textarea>
-                <div>
-                        <div class="dropdown">
-                                <span class="hours-select">Select day</span> 
-                                <div class="dropdown-menu">
-                                    <ul>
-            
-                                            <li class="dropdown-item">
-                                                    <input type="checkbox" name="Monday" value="1" id="">
-                                                    <label for="beep">Monday</label>
-                                            </li>
- 
-                                                 <li class="dropdown-item">
-                                                    <input type="checkbox" name="Tuesday" value="2" id="">
-                                                    <label for="beep">Tuesday</label>
-                                            </li>
-                                             
-                                         <li class="dropdown-item">
-                                                <input type="checkbox" name="Wednesday" value="3" id="">
-                                                <label for="beep">Wednesday</label>
-                                        </li>
-            
-                                              
-                                           <li class="dropdown-item">
-                                                <input type="checkbox" name="Thursday" value="4" id="">
-                                                <label for="beep">Thursday</label>
-                                        </li>
-                                       <li class="dropdown-item">
-                                            <input type="checkbox" name="Friday" value="5" id="">
-                                            <label for="beep">Friday</label>
-                                    </li>
-                                    </ul>
-                                 
-                                  
-            
-                                </div>
-            
-                            </div>
-                        <div class="dropdown">
-                            <span class="hours-select">Select hours ⏱</span> 
-                            <div class="dropdown-menu">
-                                <ul>
-        
-                                        <li class="dropdown-item">
-                                                <input type="checkbox" name="beep" value="bop" id="">
-                                                <label for="beep">bopito</label>
-                                        </li>
-                                        <li class="dropdown-item">
-                                                <input type="checkbox" name="beep" value="bop" id="">
-                                                <label for="beep">bopito</label>
-                                        </li>      <li class="dropdown-item">
-                                                <input type="checkbox" name="beep" value="bop" id="">
-                                                <label for="beep">bopito</label>
-                                        </li>
-        
-                                </ul>
-                             
-                              
-        
-                            </div>
-        
-                        </div>
-                </div>
+            <span class="delete-button">Delete a class <b>-</b></span>
+            <div class="dropdown-menu">
+                <ul>
+                    <li>Class 1</li>
+                    <li>Class 1</li>
+                    <li>Class 1</li>
+                    <li>Class 1</li>
+                    <li>Class 1</li>
+                </ul>
                 
-                <button class="submit-button" type="submit">Add</button>
-            </form>
+            </div>
+        </div>
+        
+        <form action="ege.html" class="new-class-form">
+            <span class="add-class-text">Add a non-existing Class:</span>
+            <textarea name="class-name" id="" cols="10" rows="1"></textarea>
+            <div>
+                <div class="dropdown">
+                    <span class="hours-select">Select day</span> 
+                    <div class="dropdown-menu">
+                        <ul>
+                            
+                            <li class="dropdown-item">
 
+                                <div class="dropdown-side">
+                                    <input type="checkbox" name="Monday" value="1" id="">
+                                    <label for="beep">Monday</label>
+                                    
+                                    <div class="dropdown-side-menu">
+                                        <input type="checkbox" name="Monday" value="1" id="">
+                                        <label for="beep">Monday</label>
+                                        <input type="checkbox" name="Monday" value="1" id="">
+                                        <label for="beep">Monday</label>
+                                        <input type="checkbox" name="Monday" value="1" id="">
+                                        <label for="beep">Monday</label>
+                                        <input type="checkbox" name="Monday" value="1" id="">
+                                        <label for="beep">Monday</label>
+                                        
+                                    </div>
+                                </div>
+
+                              
+                                
+                                
+                            </li>
+                            
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="Tuesday" value="2" id="">
+                                <label for="beep">Tuesday</label>
+                            </li>
+                            
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="Wednesday" value="3" id="">
+                                <label for="beep">Wednesday</label>
+                            </li>
+                            
+                            
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="Thursday" value="4" id="">
+                                <label for="beep">Thursday</label>
+                            </li>
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="Friday" value="5" id="">
+                                <label for="beep">Friday</label>
+                            </li>
+                        </ul>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                <!--
+                <div class="dropdown">
+                    <span class="hours-select">Select hours ⏱</span> 
+                    <div class="dropdown-menu">
+                        <ul>
+                            
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="beep" value="bop" id="">
+                                <label for="beep">bopito</label>
+                            </li>
+                            <li class="dropdown-item">
+                                <input type="checkbox" name="beep" value="bop" id="">
+                                <label for="beep">bopito</label>
+                            </li>      <li class="dropdown-item">
+                                <input type="checkbox" name="beep" value="bop" id="">
+                                <label for="beep">bopito</label>
+                            </li>
+                            
+                        </ul>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                -->
+            </div>
+            
+            <button class="submit-button" type="submit">Add</button>
+        </form>
+        
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>

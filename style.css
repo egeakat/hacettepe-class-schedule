@@ -51,6 +51,19 @@ body{
     display: inline-block;
 }
 
+
+.dropdown-side-menu{
+    display: none;
+    margin-left: 1rem;
+}
+
+.dropdown-side:hover .dropdown-side-menu{
+    position: relative;
+    display: block;
+    float: right;
+}
+
+
 .add-button{
     color: white;
     background: rgb(32, 196, 46);
