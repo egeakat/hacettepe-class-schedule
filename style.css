@@ -116,7 +116,7 @@ ul{
 li{
     padding: 10px;
     border-bottom: 1px solid black;
-    background:rgba(146, 146, 146, 0.486);
+    background:rgba(146, 146, 146, 0.788);
 }
 
 li:hover{
@@ -153,5 +153,14 @@ button:hover{
     }
     .submit-button{
         width: 100%;
+    }
+    .page-header{
+        width: 110%;
+        color: rgb(255, 255, 255);
+    }
+    footer{
+        color: white;
+        width: 110%;
+        margin-bottom: 3rem;
     }
 }
