@@ -17,7 +17,7 @@
     
     <div class="container">
         
-        <table>
+        <table id="table">
             <tr>
                 <th></th>
                 <th>Monday</th>
@@ -132,7 +132,7 @@
             </div>
         </div>
         
-        <form action="ege.html" class="new-class-form">
+        <form id="form-submit" action="ege.html" class="new-class-form">
             <span class="add-class-text">Add a non-existing Class:</span>
             <textarea name="class-name" id="" cols="10" rows="1"></textarea>
             <div>
@@ -144,9 +144,7 @@
                             <li class="dropdown-item">
 
                                 <div class="dropdown-side">
-                                    <input type="checkbox" name="Monday" value="1" id="">
-                                    <label for="Monday">Monday</label>
-                                    
+                                    <span>Monday</span>                                    
                                     <div class="dropdown-side-menu">
                                         <input type="checkbox" name="Monday-09" value="10" id="">
                                         <label for="Monday-09">09:00 - 09:50</label>
@@ -175,9 +173,7 @@
                             <li class="dropdown-item">
 
                                 <div class="dropdown-side">
-                                    <input type="checkbox" name="Tuesday" value="2" id="">
-                                    <label for="Tuesday">Tuesday</label>
-                                    
+                                    <span>Tuesday</span>                                    
                                     <div class="dropdown-side-menu">
                                         <input type="checkbox" name="Tuesday-09" value="20" id="">
                                         <label for="Tuesday-09">09:00 - 09:50</label>
@@ -208,8 +204,7 @@
                             <li class="dropdown-item">
 
                                 <div class="dropdown-side">
-                                    <input type="checkbox" name="Wednesday" value="3" id="">
-                                    <label for="Wednesday">Wednesday</label>
+                                    <span>Wednesday</span>                                    
                                     
                                     <div class="dropdown-side-menu">
                                         <input type="checkbox" name="Wednesday-09" value="30" id="">
@@ -241,8 +236,7 @@
                             <li class="dropdown-item">
 
                                 <div class="dropdown-side">
-                                    <input type="checkbox" name="Thursday" value="4" id="">
-                                    <label for="Thursday">Thursday</label>
+                                    <span>Thursday</span>                                    
                                     
                                     <div class="dropdown-side-menu">
                                         <input type="checkbox" name="Thursday-09" value="40" id="">
@@ -272,8 +266,7 @@
                                 <li class="dropdown-item">
 
                                     <div class="dropdown-side">
-                                        <input type="checkbox" name="Friday" value="5" id="">
-                                        <label for="Friday">Friday</label>
+                                        <span>Friday</span>                                    
                                         
                                         <div class="dropdown-side-menu">
                                             <input type="checkbox" name="Friday-09" value="50" id="">
