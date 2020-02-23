@@ -45,10 +45,15 @@ label{
 
 .dropdown-menu{
     display: none;
+}
+
+#append-menu {
 	width: 840px;
     height: 350px;
     overflow-y: scroll;
 }
+
+
 
 .dropdown:hover .dropdown-menu{
     position: absolute;
@@ -111,25 +116,24 @@ textarea{
     border: 1px solid gray;
 }
 ul{
-	list-style: none;
-    padding: 0;
-    margin: 0;
-    -webkit-column-count: 4;
-       -moz-column-count: 4;
-            column-count: 4;
-    -webkit-column-width: 50%;
-       -moz-column-width: 50%;
-            column-width: 50%;   
-    border: 1px solid black;
+    list-style: none;
     border: 1px solid black;
 
 }
 
-li{
-	
+#append-list {
+    padding: 0;
+    margin: 0;	
+	-webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+	column-gap: 0;
 	text-align: center;
+}
+
+li{
     padding: 10px;
-	border: 1px solid;
+    border: 1px solid black;
     background:rgba(146, 146, 146, 0.788);
 }
 
