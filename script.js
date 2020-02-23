@@ -81,6 +81,7 @@ function removeClass(nodeToRemove, hours){
 function seeder(){
     removeClass(addClass("FIZ 117 (25-26) <br> LS1, LS2", [10,11,12]),[10,11,12]);
     removeClass(addClass("ING 112(27, 32, 36) <br> D4", [14,15,16]),[14,15,16]);
+	removeClass(addClass("ING 212(27) <br> A210(60) ", [40,41,42]),[40,41,42]);
     removeClass(addClass("MAT254(02) <br> D9", [10,11,12]),[10,11,12]);
     removeClass(addClass("MAT254(01) <br> D1", [55,56,57]),[55,56,57]);
     removeClass(addClass("BBM234(01,02) <br> D1, D2", [14,15,16]),[14,15,16]);
