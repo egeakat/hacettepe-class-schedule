@@ -47,6 +47,14 @@ label{
     display: none;
 }
 
+#append-menu {
+	width: 50%;
+    height: 40%;
+    overflow-y: scroll;
+}
+
+
+
 .dropdown:hover .dropdown-menu{
     position: absolute;
     display: block;
@@ -113,9 +121,19 @@ ul{
 
 }
 
+#append-list {
+    padding: 0;
+    margin: 0;	
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+	column-gap: 0;
+	text-align: center;
+}
+
 li{
     padding: 10px;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     background:rgba(146, 146, 146, 0.788);
 }
 
@@ -162,5 +180,10 @@ button:hover{
         color: white;
         width: 110%;
         margin-bottom: 3rem;
+    }
+    #append-menu {
+        min-width: 100%;
+        height: 50%;
+        overflow-y: scroll;
     }
 }
