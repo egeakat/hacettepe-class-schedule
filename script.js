@@ -98,7 +98,7 @@ function seeder(){
     removeClass(addClass("BBM102(01,02,03) <br> D1, D2, D3", [34,35,36]),[34,35,36]);
     removeClass(addClass("ELE296 <br> M13", [30,31,32,33]),[30,31,32,33]);
     removeClass(addClass("BBM467 <br> D8", [30,31,32]),[30,31,32]);
-    removeClass(addClass("BM416 <br> D9", [30,31,32]),[30,31,32]);
+    removeClass(addClass("BBM416 <br> D9", [30,31,32]),[30,31,32]);
     removeClass(addClass("BBM410 <br> D8", [34,35,36]),[34,35,36]);
     removeClass(addClass("BBM442 <br> D9", [34,35,36]),[34,35,36]);
     removeClass(addClass("BBM204(01) <br> Comp. Lab", [40,41]),[40,41]);
